@@ -16,3 +16,14 @@ print("Hola " * 5)
 my_float = 2.5 *2
 print("hola " * int(my_float))
 print("hola " + str(my_float))
+
+#operadores comparativos
+#%%
+print('Aqui comienza la parte de los operadores logicos')
+print(3 < 4)
+print(3 > 4)
+print(3 <= 4)
+print(3 <= 4)
+print(3 == 4)
+print(3 != 4)
+
