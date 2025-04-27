@@ -28,3 +28,7 @@ print(b)
 #con esta igual puedes trabajr cadenas de texto de acuerdo a su longitud
 language_slice = language[0:3]
 print(language_slice)
+
+#aqui podemos contar dentro de una cadena
+print(language.count('t'))
+print(language.upper())
