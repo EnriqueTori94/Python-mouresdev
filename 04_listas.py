@@ -20,6 +20,18 @@ print(my_other_list[1])
 print(my_other_list[-4])
 print(my_list.count(30))
 
-#vamos a jugar con las listas
+#vamos a jugar con las listas y como podemos parametrizar los elementos
 edad, heigh, name, surname = my_other_list
 print(name)
+
+#vamos a hacer pruebas de listas
+
+my_list_test = [12,23,34,56,67,78]
+print(my_list_test)
+my_list_test.remove(12)
+print(my_list_test)
+
+#aqui vemos que cuando genera el del comienza en la posicion 0
+#por eso el numero que elimina es el 67
+del my_list_test[3]
+print(my_list_test)
