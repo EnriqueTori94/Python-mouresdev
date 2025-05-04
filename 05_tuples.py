@@ -1,4 +1,6 @@
 #vamos a comenzar con las tuplas
+import matplotlib
+
 
 #a diferencia de las listas que se ejecutan con [] las tuplas son con ()
 my_tuple = tuple()
@@ -14,4 +16,5 @@ print(my_tuple[-1])
 
 print(my_tuple.count('Brais'))
 print(my_tuple.index('Moure'))
-print(my_tuple.index(35))
+print(my_tuple.index('Brais'))
+
